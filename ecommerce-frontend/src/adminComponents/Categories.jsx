@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './styles/Categories.css';
 
-const API_BASE_URL = 'http://localhost:8080/api/v1/categories'; // Update with your backend URL
+const API_BASE_URL = 'https://ecommerce-category-module.onrender.com/api/v1/categories'; 
 
 const Categories = () => {
   const [categories, setCategories] = useState([]);
